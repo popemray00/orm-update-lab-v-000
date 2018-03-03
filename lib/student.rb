@@ -14,8 +14,8 @@ class Student
     sql = <<-SQL
     CREATE TABLE IF NOT EXISTS students (
     ID INTEGER PRIMARY KEY,
-    name = TEXT,
-    grade = INTEGER
+    name TEXT,
+    grade INTEGER
   );
     SQL
 
